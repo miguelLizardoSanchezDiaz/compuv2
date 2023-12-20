@@ -42,7 +42,7 @@ export const OtherCategories = () => {
     const products=[
         {
             id:1,
-            imgUrl:'/img_publics/mouse-redragon.png',
+            imgUrl:'./img_publics/mouse-redragon.png',
             marca:'REDRAGON',
             description:'Mouse Redragon Griffin M607 RGB Negro',
             precio:140.00,
@@ -51,7 +51,7 @@ export const OtherCategories = () => {
         },
         {
             id:2,
-            imgUrl:'/img_publics/mouse-redragon.png',
+            imgUrl:'./img_publics/mouse-redragon.png',
             marca:'REDRAGON',
             description:'Mouse Redragon Griffin M607 RGB Negro',
             precio:140,
@@ -60,7 +60,7 @@ export const OtherCategories = () => {
         },
         {
           id:2,
-          imgUrl:'/img_publics/mouse-redragon.png',
+          imgUrl:'./img_publics/mouse-redragon.png',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -69,7 +69,7 @@ export const OtherCategories = () => {
         },
         {
           id:2,
-          imgUrl:'/img_publics/mouse-redragon.png',
+          imgUrl:'./img_publics/mouse-redragon.png',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -78,7 +78,7 @@ export const OtherCategories = () => {
         },
         {
           id:2,
-          imgUrl:'/img_publics/mouse-redragon.png',
+          imgUrl:'./img_publics/mouse-redragon.png',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -87,7 +87,7 @@ export const OtherCategories = () => {
         },
         {
           id:2,
-          imgUrl:'/img_publics/mouse-redragon.png',
+          imgUrl:'./img_publics/mouse-redragon.png',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140.00,
