@@ -4,7 +4,7 @@ export const Promo = () => {
   return (
     <>
         <img
-            src='./img_publics/promos.jpg'
+            src='/compuv2/img_publics/promos.jpg'
             alt="slider imagen"
             className='img-responsive' 
         />

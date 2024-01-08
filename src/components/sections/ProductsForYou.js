@@ -42,15 +42,15 @@ export const ProductsForYou = () => {
     const products=[
         {
             id:1,
-            imgUrl:'./img_publics/banner-category.png',
+            imgUrl:'/compuv2/img_publics/banner-category.png',
         },
         {
           id:2,
-          imgUrl:'./img_publics/banner-category.png',
+          imgUrl:'/compuv2/img_publics/banner-category.png',
         },
         {
           id:3,
-          imgUrl:'./img_publics/banner-category.png',
+          imgUrl:'/compuv2/img_publics/banner-category.png',
         }
     ]
     

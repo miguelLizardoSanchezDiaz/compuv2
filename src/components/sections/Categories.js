@@ -42,67 +42,67 @@ export const Categories = () => {
     const categories=[
         {
             id:1,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
             id:2,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Zona gamer',
             description:'Hasta 50% off'
         },
         {
             id:3,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Monitores',
             description:'Hasta 50% off'
         },
         {
           id:4,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:5,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:6,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:7,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:8,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:9,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:10,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },
         {
           id:11,
-            imgUrl:'./img_publics/mujer-trabajando-con-laptop.webp',
+            imgUrl:'/compuv2/img_publics/mujer-trabajando-con-laptop.webp',
             title:'Laptop',
             description:'Hasta 50% off'
         },

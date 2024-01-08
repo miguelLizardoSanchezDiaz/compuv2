@@ -10,9 +10,19 @@ import { Offers } from '../sections/Offers'
 import { ProductsForYou } from '../sections/ProductsForYou'
 import { OtherCategories } from '../sections/OtherCategories'
 import { Benefits } from '../sections/Benefits'
+import { Footer } from '../layout/Footer'
 export const Home = () => {
   return (
     <>
+        {/*<div className="menu-items">
+          <ul>
+            <li>Almacenamiento</li>
+            <li>Impresoras y suministros</li>
+            <li>Laptops</li>
+            <li>Monitores</li>
+            <li>PC Componentes</li>
+          </ul>
+        </div>*/}
         <Coupon/>
         <Nabvar className="animate__animated animate__bounceOut"/>
         <Slider/>
@@ -24,7 +34,7 @@ export const Home = () => {
         <ProductsForYou/>
         <OtherCategories/>
         <Benefits/>
-        
+        <Footer/>
     </>
   )
 }
