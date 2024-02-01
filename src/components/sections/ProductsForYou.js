@@ -56,12 +56,12 @@ export const ProductsForYou = () => {
     
     
   return (
-    <div className='pd-offers'>
+    <div className='pd-for-you'>
       <div className='txt-center padding-categories-titles'>
           <div className='txt-semibold font-family-montserrat font18'>Los productos ideales para ti</div>
       </div>
       
-      <div className='margin-lr'>
+      <div className='margin-lr flex-container-wrap'>
         {
             products.map(c=>
             <div key={c.id}>

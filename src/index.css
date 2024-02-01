@@ -246,10 +246,13 @@ button:last-child {
   align-items: baseline;
 }
 .pd-categories{
-  padding: 3% 0% 8% 0%;
+  padding: 3% 0% 3% 0%;
 }
 .pd-offers{
   padding: 3% 0% 0% 0%;
+}
+.pd-for-you{
+  padding: 3% 2% 0% 2%;
 }
 /*FIN CATEGORIES*/
 
@@ -312,6 +315,18 @@ button:last-child {
 }
 .margin-top-30{
   margin-top: 30px;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.margin-bottom-10{
+  margin-bottom:10px
+}
+.padding-top-10{
+  padding-top: 10px;
+}
+.padding-bottom-10{
+  padding-bottom:10px
 }
 /*
 FIN LO MAS VENDIDO
@@ -450,4 +465,40 @@ FIN LO MAS VENDIDO
 .padding-top-25{
   padding-top: 25px;
 }
+.icon-a a{
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.icon-a a:hover{
+  color: #8566FF;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out; 
+}
 /*FIN FOOTER*/
+
+
+.flex-container-wrap{
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+}
+.flex-item-wrap{
+  font-size: 3em;
+  text-align: center;
+}

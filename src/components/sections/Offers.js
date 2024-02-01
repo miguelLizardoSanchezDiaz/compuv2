@@ -60,7 +60,7 @@ export const Offers = () => {
         },
         {
           id:2,
-          imgUrl:'/compuv2/img_publics/mouse-redragon.png',
+          imgUrl:'/compuv2/img_publics/audifonos-redragon.jpg',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -69,7 +69,7 @@ export const Offers = () => {
         },
         {
           id:2,
-          imgUrl:'/compuv2/img_publics/mouse-redragon.png',
+          imgUrl:'/compuv2/img_publics/audifonos-redragon.jpg',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -78,7 +78,7 @@ export const Offers = () => {
         },
         {
           id:2,
-          imgUrl:'/compuv2/img_publics/mouse-redragon.png',
+          imgUrl:'/compuv2/img_publics/audifonos-redragon.jpg',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140,
@@ -87,7 +87,7 @@ export const Offers = () => {
         },
         {
           id:2,
-          imgUrl:'/compuv2/img_publics/mouse-redragon.png',
+          imgUrl:'/compuv2/img_publics/audifonos-redragon.jpg',
           marca:'REDRAGON',
           description:'Mouse Redragon Griffin M607 RGB Negro',
           precio:140.00,

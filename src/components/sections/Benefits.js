@@ -9,19 +9,19 @@ export const Benefits = () => {
 
     
   return (
-    <div className='pd-offers font-family-montserrat'>
-      <div className='txt-center padding-categories-titles mb-15'>
+    <div className='pd-offers font-family-montserrat flex-container-wrap'>
+      <div className='txt-center padding-categories-titles mb-15 flex-item-wrap'>
           <TbTruckDelivery size={80}/>
           <div className='font18 font700'>ENVÍOS A TODO EL PERÚ</div>
           <div className='font14'>Hasta la puerta de tu casa</div>
       </div>
-      <div className='txt-center padding-categories-titles mb-15'>
+      <div className='txt-center padding-categories-titles mb-15 flex-item-wrap'>
           <GoGift size={80}/>
           <div className='font18 font700'>PROMOCIONES Y DESCUENTOS</div>
           <div className='font14'>Exclusivo para nuestros suscriptores</div>
       </div>
 
-      <div className='txt-center padding-categories-titles mb-15'>
+      <div className='txt-center padding-categories-titles mb-15 flex-item-wrap'>
           <MdOutlineSecurity size={80}/>
           <div className='font18 font700'>SEGURIDAD Y GARANTÍA</div>
           <div className='font14'>Todos nuestros productos son nuevos y con garantía</div>
