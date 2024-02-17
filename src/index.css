@@ -502,3 +502,6 @@ FIN LO MAS VENDIDO
   font-size: 3em;
   text-align: center;
 }
+.text-decoration-none,.text-decoration-none:hover{
+  text-decoration: none;
+}
