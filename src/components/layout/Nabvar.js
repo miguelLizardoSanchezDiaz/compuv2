@@ -12,7 +12,12 @@ export const Nabvar = () => {
             <IoMenu size={25} className='flex-item'/>
             <IoSearchOutline size={25} className='flex-item'/>
         </div>
-        <div className='flex-item txt-center font20'>LOGO</div>
+        <div className='flex-item txt-center font20'>
+          <img src='/compuv2/img_publics/logo-compured.png'
+            alt='laptop categoria'
+            width='80px'
+             />
+        </div>
         <div className='flex-item flex-end flex-container'>
             <AiOutlineUser size={25} className='flex-item'/>
             <LiaShoppingCartSolid size={25} className='flex-item'/>

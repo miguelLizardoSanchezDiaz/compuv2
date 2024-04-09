@@ -38,7 +38,12 @@ export const Footer = () => {
                 
             </div>
         </div>
-        <div className='txt-center margin-top-25'>LOGO</div>
+        <div className='txt-center margin-top-25'>
+            <img src='/compuv2/img_publics/logo-compured.png'
+            alt='laptop categoria'
+            width='80px'
+             />
+        </div>
         <div className='txt-center font14 margin-top-25'>
             Encuentra los mejores productos de tecnología al mejor precio. Visita nuestras redes sociales para conocer descuentos y promociones
         </div>

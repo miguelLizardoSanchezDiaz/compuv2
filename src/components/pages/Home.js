@@ -5,6 +5,7 @@ import { Footer } from '../layout/Footer'
 import { Principal } from './Principal'
 import { DetalleProducto } from './DetalleProducto'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Page404 } from './Page404'
 export const Home = () => {
   return (
     <>
@@ -19,12 +20,13 @@ export const Home = () => {
         </div>*/}
         <Coupon/>
         <Nabvar className="animate__animated animate__bounceOut"/>
-          <BrowserRouter>
+        <BrowserRouter>
             <Routes>
-              <Route exact path="/" element={<Principal/>} />
-              <Route exact path="/detalle-producto" element={<DetalleProducto/>} />
+              <Route path="/" element={<Principal/>} />
+              <Route path="/detalle-producto" element={<DetalleProducto/>} />
+              <Route path="*" element={<Page404/>} />
             </Routes>
-          </BrowserRouter>
+        </BrowserRouter>
           
         <Footer/>
     </>

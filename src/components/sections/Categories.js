@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 export const Categories = () => {
     const settings = {
@@ -121,11 +122,11 @@ export const Categories = () => {
             categories.map(c=>
             <div key={c.id}>
                 <div className='bg-fff border-radius-9 margen-item'>
-                    <a href='/detalle-producto' className='text-decoration-none'>
+                    <Link to="/detalle-producto" className='text-decoration-none'>
                       <img src={c.imgUrl}
                       alt='laptop categoria'
                       className='img-responsive border-radius-9 ' />
-                    </a>
+                    </Link>
                       <div className='padding-categories-item'>
                           <div className='txt-semibold font-family-montserrat font15'>{c.title}</div>
                           <div className='font-family-montserrat font14 txt-72FD91'>{c.description}</div>
