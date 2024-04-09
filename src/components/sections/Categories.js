@@ -114,7 +114,7 @@ export const Categories = () => {
   return (
     <div className='bg-categories pd-categories'>
       <div className='flex-container justify-content padding-categories-titles baseline-items'>
-            <div className='txt-semibold font-family-montserrat font18'>Nuestras categorias</div>
+            <div className='txt-semibold font-family-montserrat font18 color-blanco'>Nuestras categorias</div>
             <div className='font-family-montserrat font12v2'>Ver Todo</div>
         </div> 
       <Slider {...settings}>

@@ -169,7 +169,7 @@ body{
 
 /*INICIO CATEGORIES*/
 .bg-categories{
-  background-color: #72FD91;
+  background-color: #520FDA;
 }
 .txt-72FD91{
   color: #0FB900;
@@ -641,4 +641,7 @@ s{
 }
 .borderE2E2E2{
   border:1px solid #E2E2E2
+}
+.color-blanco{
+  color: #FFFFFF;
 }
